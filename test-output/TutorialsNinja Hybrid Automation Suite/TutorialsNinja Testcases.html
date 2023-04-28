@@ -1,0 +1,643 @@
+<html>
+<head>
+<title>TestNG:  TutorialsNinja Testcases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TutorialsNinja Testcases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 27 01:13:59 PDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>126 seconds (126403 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithAllEmptyFields()'><b>verifyRegisterAccountWithAllEmptyFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithAllEmptyFields(RegisterAccountTest.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1974690755", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1974690755'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithAllEmptyFields(RegisterAccountTest.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields()'><b>verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields(RegisterAccountTest.java:126)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace602529144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace602529144'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields(RegisterAccountTest.java:126)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields()'><b>verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields(RegisterAccountTest.java:144)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1577409761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1577409761'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields(RegisterAccountTest.java:144)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithValidEmailAndEmptyAllFields()'><b>verifyRegisterAccountWithValidEmailAndEmptyAllFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithValidEmailAndEmptyAllFields(RegisterAccountTest.java:250)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace636370090", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace636370090'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithValidEmailAndEmptyAllFields(RegisterAccountTest.java:250)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.LoginTest.verifyInvalidUsernameAndInvalidPassword()'><b>verifyInvalidUsernameAndInvalidPassword</b><br>Test class: com.tn.qa.testcases.LoginTest</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.CharSequence.toString()&quot; because &quot;s&quot; is null
+	at java.base/java.lang.String.contains(String.java:2854)
+	at com.tn.qa.testcases.LoginTest.verifyInvalidUsernameAndInvalidPassword(LoginTest.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace430798309", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace430798309'><pre>java.lang.NullPointerException: Cannot invoke &quot;java.lang.CharSequence.toString()&quot; because &quot;s&quot; is null
+	at java.base/java.lang.String.contains(String.java:2854)
+	at com.tn.qa.testcases.LoginTest.verifyInvalidUsernameAndInvalidPassword(LoginTest.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.LoginTest@72bc6553</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields()'><b>verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields(RegisterAccountTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace934426842", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace934426842'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields(RegisterAccountTest.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields()'><b>verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields(RegisterAccountTest.java:180)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1423992712", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1423992712'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields(RegisterAccountTest.java:180)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithAllValidFields()'><b>verifyRegisterAccountWithAllValidFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithAllValidFields(RegisterAccountTest.java:61)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1814594481", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1814594481'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithAllValidFields(RegisterAccountTest.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields()'><b>verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields(RegisterAccountTest.java:198)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1398530689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1398530689'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields(RegisterAccountTest.java:198)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields()'><b>verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields(RegisterAccountTest.java:162)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace678631391", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace678631391'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields(RegisterAccountTest.java:162)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields()'><b>verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields</b><br>Test class: com.tn.qa.testcases.RegisterAccountTest</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields(RegisterAccountTest.java:220)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2085073144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2085073144'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [null] but found [Your Account Has Been Created!]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at com.tn.qa.testcases.RegisterAccountTest.verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields(RegisterAccountTest.java:220)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.tn.qa.testcases.RegisterAccountTest@66982506</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.tn.qa.testcases.LoginTest.verifyValidUsernameAndEmptyPassword()'><b>verifyValidUsernameAndEmptyPassword</b><br>Test class: com.tn.qa.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.LoginTest@72bc6553</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.SearchProductWithSpacesBetweenEachLetter()'><b>SearchProductWithSpacesBetweenEachLetter</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.verifyAllUpperCaseSearchProduct()'><b>verifyAllUpperCaseSearchProduct</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.LoginTest.verifyInvalidUsernameAndValidPassword()'><b>verifyInvalidUsernameAndValidPassword</b><br>Test class: com.tn.qa.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.LoginTest@72bc6553</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.SearchProductWithLeadingAndTrailingSpaces()'><b>SearchProductWithLeadingAndTrailingSpaces</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.verifyMisspelledSearchProduct()'><b>verifyMisspelledSearchProduct</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>10</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.verifySpecialCharacterSearchProduct()'><b>verifySpecialCharacterSearchProduct</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.verifyNumbersInSearchProduct()'><b>verifyNumbersInSearchProduct</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.verifyInvalidSearchProduct()'><b>verifyInvalidSearchProduct</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.LoginTest.verifyEmptyUsernameAndValidPassword()'><b>verifyEmptyUsernameAndValidPassword</b><br>Test class: com.tn.qa.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.LoginTest@72bc6553</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.SearchProductWithPartialProductName()'><b>SearchProductWithPartialProductName</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.LoginTest.verifyValidUsernameAndInvalidPassword()'><b>verifyValidUsernameAndInvalidPassword</b><br>Test class: com.tn.qa.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.LoginTest@72bc6553</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.SearchProductWithTwoSpaces()'><b>SearchProductWithTwoSpaces</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.LoginTest.verifyValidUsernameAndValidPassword()'><b>verifyValidUsernameAndValidPassword</b><br>Test class: com.tn.qa.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.LoginTest@72bc6553</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.verifySearchProductWithSpacesInTheMiddle()'><b>verifySearchProductWithSpacesInTheMiddle</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.SearchTest.verifyEmptySearchProduct()'><b>verifyEmptySearchProduct</b><br>Test class: com.tn.qa.testcases.SearchTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.SearchTest@57a78e3</td></tr>
+<tr>
+<td title='com.tn.qa.testcases.LoginTest.verifyEmptyUsernameAndEmptyPassword()'><b>verifyEmptyUsernameAndEmptyPassword</b><br>Test class: com.tn.qa.testcases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.tn.qa.testcases.LoginTest@72bc6553</td></tr>
+</table><p>
+</body>
+</html>

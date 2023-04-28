@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite">
+              <span class="suite-name border-passed">TutorialsNinja Hybrid Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TutorialsNinja_Hybrid_Automation_Suite">
+                    <span>C:\Users\shura\eclipse-workspace\TUTORIALSNINJA_BOOTCAMP_FRAMEWORK\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TutorialsNinja_Hybrid_Automation_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TutorialsNinja_Hybrid_Automation_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TutorialsNinja_Hybrid_Automation_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TutorialsNinja_Hybrid_Automation_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TutorialsNinja_Hybrid_Automation_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TutorialsNinja_Hybrid_Automation_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" class="hide-methods passed suite-TutorialsNinja_Hybrid_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-TutorialsNinja_Hybrid_Automation_Suite -->
+                      <a href="#" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" class="show-methods passed suite-TutorialsNinja_Hybrid_Automation_Suite"> (show)</a> <!-- show-methods passed suite-TutorialsNinja_Hybrid_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-TutorialsNinja_Hybrid_Automation_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="SearchProductWithLeadingAndTrailingSpaces">SearchProductWithLeadingAndTrailingSpaces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="SearchProductWithPartialProductName">SearchProductWithPartialProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="SearchProductWithSpacesBetweenEachLetter">SearchProductWithSpacesBetweenEachLetter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="SearchProductWithTwoSpaces">SearchProductWithTwoSpaces</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="verifyAllUpperCaseSearchProduct">verifyAllUpperCaseSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="verifyEmptySearchProduct">verifyEmptySearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.LoginTest" hash-for-method="verifyEmptyUsernameAndEmptyPassword">verifyEmptyUsernameAndEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.LoginTest" hash-for-method="verifyEmptyUsernameAndValidPassword">verifyEmptyUsernameAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="verifyInvalidSearchProduct">verifyInvalidSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.LoginTest" hash-for-method="verifyInvalidUsernameAndInvalidPassword">verifyInvalidUsernameAndInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.LoginTest" hash-for-method="verifyInvalidUsernameAndValidPassword">verifyInvalidUsernameAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="verifyMisspelledSearchProduct">verifyMisspelledSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="verifyNumbersInSearchProduct">verifyNumbersInSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithAllEmptyFields">verifyRegisterAccountWithAllEmptyFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithAllValidFields">verifyRegisterAccountWithAllValidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields">verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields">verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields">verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields">verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields">verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields">verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields">verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.RegisterAccountTest" hash-for-method="verifyRegisterAccountWithValidEmailAndEmptyAllFields">verifyRegisterAccountWithValidEmailAndEmptyAllFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="verifySearchProductWithSpacesInTheMiddle">verifySearchProductWithSpacesInTheMiddle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.SearchTest" hash-for-method="verifySpecialCharacterSearchProduct">verifySpecialCharacterSearchProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.LoginTest" hash-for-method="verifyValidUsernameAndEmptyPassword">verifyValidUsernameAndEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.LoginTest" hash-for-method="verifyValidUsernameAndInvalidPassword">verifyValidUsernameAndInvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" title="com.tn.qa.testcases.LoginTest" hash-for-method="verifyValidUsernameAndValidPassword">verifyValidUsernameAndValidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TutorialsNinja_Hybrid_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TutorialsNinja_Hybrid_Automation_Suite" class="panel TutorialsNinja_Hybrid_Automation_Suite">
+          <div class="suite-TutorialsNinja_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tn.qa.testcases.RegisterAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithAllEmptyFields">
+                  </a> <!-- verifyRegisterAccountWithAllEmptyFields -->
+                  <span class="method-name">verifyRegisterAccountWithAllEmptyFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithAllValidFields">
+                  </a> <!-- verifyRegisterAccountWithAllValidFields -->
+                  <span class="method-name">verifyRegisterAccountWithAllValidFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields">
+                  </a> <!-- verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields -->
+                  <span class="method-name">verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields">
+                  </a> <!-- verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields -->
+                  <span class="method-name">verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields">
+                  </a> <!-- verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields -->
+                  <span class="method-name">verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields">
+                  </a> <!-- verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields -->
+                  <span class="method-name">verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields">
+                  </a> <!-- verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields -->
+                  <span class="method-name">verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields">
+                  </a> <!-- verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields -->
+                  <span class="method-name">verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields">
+                  </a> <!-- verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields -->
+                  <span class="method-name">verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterAccountWithValidEmailAndEmptyAllFields">
+                  </a> <!-- verifyRegisterAccountWithValidEmailAndEmptyAllFields -->
+                  <span class="method-name">verifyRegisterAccountWithValidEmailAndEmptyAllFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinja_Hybrid_Automation_Suite-class-passed -->
+          <div class="suite-TutorialsNinja_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tn.qa.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyUsernameAndEmptyPassword">
+                  </a> <!-- verifyEmptyUsernameAndEmptyPassword -->
+                  <span class="method-name">verifyEmptyUsernameAndEmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyUsernameAndValidPassword">
+                  </a> <!-- verifyEmptyUsernameAndValidPassword -->
+                  <span class="method-name">verifyEmptyUsernameAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidUsernameAndInvalidPassword">
+                  </a> <!-- verifyInvalidUsernameAndInvalidPassword -->
+                  <span class="method-name">verifyInvalidUsernameAndInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidUsernameAndValidPassword">
+                  </a> <!-- verifyInvalidUsernameAndValidPassword -->
+                  <span class="method-name">verifyInvalidUsernameAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidUsernameAndEmptyPassword">
+                  </a> <!-- verifyValidUsernameAndEmptyPassword -->
+                  <span class="method-name">verifyValidUsernameAndEmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidUsernameAndInvalidPassword">
+                  </a> <!-- verifyValidUsernameAndInvalidPassword -->
+                  <span class="method-name">verifyValidUsernameAndInvalidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidUsernameAndValidPassword">
+                  </a> <!-- verifyValidUsernameAndValidPassword -->
+                  <span class="method-name">verifyValidUsernameAndValidPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinja_Hybrid_Automation_Suite-class-passed -->
+          <div class="suite-TutorialsNinja_Hybrid_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tn.qa.testcases.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProductWithLeadingAndTrailingSpaces">
+                  </a> <!-- SearchProductWithLeadingAndTrailingSpaces -->
+                  <span class="method-name">SearchProductWithLeadingAndTrailingSpaces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProductWithPartialProductName">
+                  </a> <!-- SearchProductWithPartialProductName -->
+                  <span class="method-name">SearchProductWithPartialProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProductWithSpacesBetweenEachLetter">
+                  </a> <!-- SearchProductWithSpacesBetweenEachLetter -->
+                  <span class="method-name">SearchProductWithSpacesBetweenEachLetter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchProductWithTwoSpaces">
+                  </a> <!-- SearchProductWithTwoSpaces -->
+                  <span class="method-name">SearchProductWithTwoSpaces</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllUpperCaseSearchProduct">
+                  </a> <!-- verifyAllUpperCaseSearchProduct -->
+                  <span class="method-name">verifyAllUpperCaseSearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptySearchProduct">
+                  </a> <!-- verifyEmptySearchProduct -->
+                  <span class="method-name">verifyEmptySearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidSearchProduct">
+                  </a> <!-- verifyInvalidSearchProduct -->
+                  <span class="method-name">verifyInvalidSearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMisspelledSearchProduct">
+                  </a> <!-- verifyMisspelledSearchProduct -->
+                  <span class="method-name">verifyMisspelledSearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNumbersInSearchProduct">
+                  </a> <!-- verifyNumbersInSearchProduct -->
+                  <span class="method-name">verifyNumbersInSearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchProductWithSpacesInTheMiddle">
+                  </a> <!-- verifySearchProductWithSpacesInTheMiddle -->
+                  <span class="method-name">verifySearchProductWithSpacesInTheMiddle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySpecialCharacterSearchProduct">
+                  </a> <!-- verifySpecialCharacterSearchProduct -->
+                  <span class="method-name">verifySpecialCharacterSearchProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TutorialsNinja_Hybrid_Automation_Suite-class-passed -->
+        </div> <!-- panel TutorialsNinja_Hybrid_Automation_Suite -->
+        <div panel-name="test-xml-TutorialsNinja_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\shura\eclipse-workspace\TUTORIALSNINJA_BOOTCAMP_FRAMEWORK\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;TutorialsNinja Hybrid Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.tn.qa.listeners.MyListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TN Register Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tn.qa.testcases.RegisterAccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TN Register Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TN Login Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tn.qa.testcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TN Login Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;TN Search Products Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tn.qa.testcases.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TN Search Products Tests --&gt;
+&lt;/suite&gt; &lt;!-- TutorialsNinja Hybrid Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TutorialsNinja_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TutorialsNinja Hybrid Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TN Register Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TN Login Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TN Search Products Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TutorialsNinja_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TutorialsNinja Hybrid Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TutorialsNinja_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TutorialsNinja Hybrid Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TutorialsNinja_Hybrid_Automation_Suite');
+function tableData_TutorialsNinja_Hybrid_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyMisspelledSearchProduct')
+data.setCell(0, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(0, 3, 10358);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SearchProductWithTwoSpaces')
+data.setCell(1, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(1, 3, 2819);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyRegisterAccountWithAllValidFields')
+data.setCell(2, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(2, 3, 861);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SearchProductWithPartialProductName')
+data.setCell(3, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(3, 3, 861);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAllUpperCaseSearchProduct')
+data.setCell(4, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(4, 3, 794);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SearchProductWithSpacesBetweenEachLetter')
+data.setCell(5, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(5, 3, 725);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'SearchProductWithLeadingAndTrailingSpaces')
+data.setCell(6, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(6, 3, 718);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRegisterAccountWithAllEmptyFields')
+data.setCell(7, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(7, 3, 682);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyValidUsernameAndValidPassword')
+data.setCell(8, 2, 'com.tn.qa.testcases.LoginTest')
+data.setCell(8, 3, 665);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyRegisterAccountWithValidEmailAndEmptyAllFields')
+data.setCell(9, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(9, 3, 639);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields')
+data.setCell(10, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(10, 3, 607);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields')
+data.setCell(11, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(11, 3, 607);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields')
+data.setCell(12, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(12, 3, 603);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields')
+data.setCell(13, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(13, 3, 592);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields')
+data.setCell(14, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(14, 3, 585);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifySearchProductWithSpacesInTheMiddle')
+data.setCell(15, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(15, 3, 585);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields')
+data.setCell(16, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(16, 3, 582);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields')
+data.setCell(17, 2, 'com.tn.qa.testcases.RegisterAccountTest')
+data.setCell(17, 3, 577);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyValidUsernameAndInvalidPassword')
+data.setCell(18, 2, 'com.tn.qa.testcases.LoginTest')
+data.setCell(18, 3, 451);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyInvalidUsernameAndInvalidPassword')
+data.setCell(19, 2, 'com.tn.qa.testcases.LoginTest')
+data.setCell(19, 3, 442);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyInvalidUsernameAndValidPassword')
+data.setCell(20, 2, 'com.tn.qa.testcases.LoginTest')
+data.setCell(20, 3, 436);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyInvalidSearchProduct')
+data.setCell(21, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(21, 3, 403);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyValidUsernameAndEmptyPassword')
+data.setCell(22, 2, 'com.tn.qa.testcases.LoginTest')
+data.setCell(22, 3, 381);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyEmptySearchProduct')
+data.setCell(23, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(23, 3, 376);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyEmptyUsernameAndValidPassword')
+data.setCell(24, 2, 'com.tn.qa.testcases.LoginTest')
+data.setCell(24, 3, 371);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyEmptyUsernameAndEmptyPassword')
+data.setCell(25, 2, 'com.tn.qa.testcases.LoginTest')
+data.setCell(25, 3, 337);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifySpecialCharacterSearchProduct')
+data.setCell(26, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(26, 3, 333);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyNumbersInSearchProduct')
+data.setCell(27, 2, 'com.tn.qa.testcases.SearchTest')
+data.setCell(27, 3, 325);
+window.suiteTableData['TutorialsNinja_Hybrid_Automation_Suite']= { tableData: data, tableDiv: 'times-div-TutorialsNinja_Hybrid_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 27 seconds</span>
+              <div id="times-div-TutorialsNinja_Hybrid_Automation_Suite">
+              </div> <!-- times-div-TutorialsNinja_Hybrid_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TutorialsNinja_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TutorialsNinja Hybrid Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TutorialsNinja_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TutorialsNinja_Hybrid_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tn.qa.testcases.RegisterAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithAllValidFields</span>
+                <span class="method-start">4437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">5299 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5952 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithAllEmptyFields</span>
+                <span class="method-start">9410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10092 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields</span>
+                <span class="method-start">14384 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">14991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields</span>
+                <span class="method-start">19233 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">19836 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields</span>
+                <span class="method-start">23953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">24538 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields</span>
+                <span class="method-start">28764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">29347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields</span>
+                <span class="method-start">33546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">34138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields</span>
+                <span class="method-start">38217 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">38795 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields</span>
+                <span class="method-start">43393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">44001 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterAccountWithValidEmailAndEmptyAllFields</span>
+                <span class="method-start">48345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">48985 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tn.qa.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidUsernameAndValidPassword</span>
+                <span class="method-start">53897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">54563 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidUsernameAndInvalidPassword</span>
+                <span class="method-start">58826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">59268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">59926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidUsernameAndInvalidPassword</span>
+                <span class="method-start">63699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">64151 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">64805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyUsernameAndValidPassword</span>
+                <span class="method-start">68395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">68766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">69422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidUsernameAndEmptyPassword</span>
+                <span class="method-start">73140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">73521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">74180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyUsernameAndEmptyPassword</span>
+                <span class="method-start">77613 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">77950 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">78617 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidUsernameAndValidPassword</span>
+                <span class="method-start">82165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">82601 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tn.qa.testcases.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">83338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptySearchProduct</span>
+                <span class="method-start">86534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">86911 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">87595 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidSearchProduct</span>
+                <span class="method-start">90782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">91185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">91859 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchProductWithSpacesInTheMiddle</span>
+                <span class="method-start">95185 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">95771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">96429 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMisspelledSearchProduct</span>
+                <span class="method-start">100026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">110384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">111062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAllUpperCaseSearchProduct</span>
+                <span class="method-start">114235 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">115029 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">115682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySpecialCharacterSearchProduct</span>
+                <span class="method-start">118994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">119327 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">119981 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNumbersInSearchProduct</span>
+                <span class="method-start">123019 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">123344 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">124003 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchProductWithSpacesBetweenEachLetter</span>
+                <span class="method-start">127232 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">127957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">128608 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchProductWithLeadingAndTrailingSpaces</span>
+                <span class="method-start">132357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">133076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">133735 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchProductWithPartialProductName</span>
+                <span class="method-start">136743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">137604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">138250 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SearchProductWithTwoSpaces</span>
+                <span class="method-start">141799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">144618 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

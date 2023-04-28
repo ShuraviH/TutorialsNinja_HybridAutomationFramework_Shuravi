@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="28" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-27T18:29:03 PDT" name="TutorialsNinja Hybrid Automation Suite" finished-at="2023-04-27T18:31:11 PDT" duration-ms="128258">
+    <groups>
+    </groups>
+    <test started-at="2023-04-27T18:29:03 PDT" name="TN Register Tests" finished-at="2023-04-27T18:29:48 PDT" duration-ms="45096">
+      <class name="com.tn.qa.testcases.RegisterAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:03 PDT" name="setUp" finished-at="2023-04-27T18:29:08 PDT" duration-ms="4467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithAllValidFields()[pri:1, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:08 PDT" name="verifyRegisterAccountWithAllValidFields" finished-at="2023-04-27T18:29:08 PDT" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithAllValidFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:08 PDT" name="teardown" finished-at="2023-04-27T18:29:08 PDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:08 PDT" name="setUp" finished-at="2023-04-27T18:29:12 PDT" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithAllEmptyFields()[pri:2, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:12 PDT" name="verifyRegisterAccountWithAllEmptyFields" finished-at="2023-04-27T18:29:13 PDT" duration-ms="583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithAllEmptyFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:13 PDT" name="teardown" finished-at="2023-04-27T18:29:13 PDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:13 PDT" name="setUp" finished-at="2023-04-27T18:29:16 PDT" duration-ms="3248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields()[pri:3, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:16 PDT" name="verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields" finished-at="2023-04-27T18:29:17 PDT" duration-ms="576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithEmptyFirstNameAndByEnteringAllValidFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:17 PDT" name="teardown" finished-at="2023-04-27T18:29:17 PDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:17 PDT" name="setUp" finished-at="2023-04-27T18:29:21 PDT" duration-ms="3596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields()[pri:4, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:21 PDT" name="verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields" finished-at="2023-04-27T18:29:21 PDT" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithEmptyLastnameAndByEnteringAllValidFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:21 PDT" name="teardown" finished-at="2023-04-27T18:29:22 PDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:22 PDT" name="setUp" finished-at="2023-04-27T18:29:25 PDT" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields()[pri:5, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:25 PDT" name="verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields" finished-at="2023-04-27T18:29:26 PDT" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithEmptyEmailAndByEnteringAllValidFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:26 PDT" name="teardown" finished-at="2023-04-27T18:29:26 PDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:26 PDT" name="setUp" finished-at="2023-04-27T18:29:30 PDT" duration-ms="3803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields()[pri:6, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:30 PDT" name="verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields" finished-at="2023-04-27T18:29:30 PDT" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithEmptyTelephoneAndByEnteringAllValidFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:30 PDT" name="teardown" finished-at="2023-04-27T18:29:30 PDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:30 PDT" name="setUp" finished-at="2023-04-27T18:29:34 PDT" duration-ms="3743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields()[pri:7, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:34 PDT" name="verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields" finished-at="2023-04-27T18:29:35 PDT" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithEmptyPasswordAndEmptyPasswordConfirmAndByEnteringAllValidFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:35 PDT" name="teardown" finished-at="2023-04-27T18:29:35 PDT" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:35 PDT" name="setUp" finished-at="2023-04-27T18:29:38 PDT" duration-ms="3275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields()[pri:8, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:38 PDT" name="verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields" finished-at="2023-04-27T18:29:39 PDT" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithEmptyPaswordConfirmAndByEnteringAllValidFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:39 PDT" name="teardown" finished-at="2023-04-27T18:29:39 PDT" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:39 PDT" name="setUp" finished-at="2023-04-27T18:29:43 PDT" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields()[pri:9, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:43 PDT" name="verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields" finished-at="2023-04-27T18:29:43 PDT" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithEmptyTeleponeAndEmptyEmailAndByEnteringAllValidFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:43 PDT" name="teardown" finished-at="2023-04-27T18:29:43 PDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:43 PDT" name="setUp" finished-at="2023-04-27T18:29:47 PDT" duration-ms="3838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegisterAccountWithValidEmailAndEmptyAllFields()[pri:10, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:47 PDT" name="verifyRegisterAccountWithValidEmailAndEmptyAllFields" finished-at="2023-04-27T18:29:48 PDT" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterAccountWithValidEmailAndEmptyAllFields -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.RegisterAccountTest@8458f04]" started-at="2023-04-27T18:29:48 PDT" name="teardown" finished-at="2023-04-27T18:29:48 PDT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tn.qa.testcases.RegisterAccountTest -->
+    </test> <!-- TN Register Tests -->
+    <test started-at="2023-04-27T18:29:48 PDT" name="TN Login Tests" finished-at="2023-04-27T18:30:15 PDT" duration-ms="27233">
+      <class name="com.tn.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:29:48 PDT" name="setUp" finished-at="2023-04-27T18:29:51 PDT" duration-ms="2835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidUsernameAndValidPassword()[pri:1, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:29:51 PDT" name="verifyValidUsernameAndValidPassword" finished-at="2023-04-27T18:29:52 PDT" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:29:52 PDT" name="teardown" finished-at="2023-04-27T18:29:52 PDT" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:29:52 PDT" name="setUp" finished-at="2023-04-27T18:29:55 PDT" duration-ms="3393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidUsernameAndInvalidPassword()[pri:2, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:29:55 PDT" name="verifyInvalidUsernameAndInvalidPassword" finished-at="2023-04-27T18:29:56 PDT" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:29:56 PDT" name="teardown" finished-at="2023-04-27T18:29:56 PDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:29:56 PDT" name="setUp" finished-at="2023-04-27T18:29:59 PDT" duration-ms="3415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidUsernameAndInvalidPassword()[pri:3, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:29:59 PDT" name="verifyValidUsernameAndInvalidPassword" finished-at="2023-04-27T18:30:00 PDT" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUsernameAndInvalidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:00 PDT" name="teardown" finished-at="2023-04-27T18:30:00 PDT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:00 PDT" name="setUp" finished-at="2023-04-27T18:30:03 PDT" duration-ms="3495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyUsernameAndValidPassword()[pri:4, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:03 PDT" name="verifyEmptyUsernameAndValidPassword" finished-at="2023-04-27T18:30:04 PDT" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:04 PDT" name="teardown" finished-at="2023-04-27T18:30:04 PDT" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:04 PDT" name="setUp" finished-at="2023-04-27T18:30:07 PDT" duration-ms="3514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidUsernameAndEmptyPassword()[pri:5, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:07 PDT" name="verifyValidUsernameAndEmptyPassword" finished-at="2023-04-27T18:30:08 PDT" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUsernameAndEmptyPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:08 PDT" name="teardown" finished-at="2023-04-27T18:30:08 PDT" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:08 PDT" name="setUp" finished-at="2023-04-27T18:30:11 PDT" duration-ms="3441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyUsernameAndEmptyPassword()[pri:6, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:11 PDT" name="verifyEmptyUsernameAndEmptyPassword" finished-at="2023-04-27T18:30:12 PDT" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyUsernameAndEmptyPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:12 PDT" name="teardown" finished-at="2023-04-27T18:30:12 PDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:12 PDT" name="setUp" finished-at="2023-04-27T18:30:15 PDT" duration-ms="3072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidUsernameAndValidPassword()[pri:7, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:15 PDT" name="verifyInvalidUsernameAndValidPassword" finished-at="2023-04-27T18:30:15 PDT" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsernameAndValidPassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.LoginTest@5b7a7f33]" started-at="2023-04-27T18:30:15 PDT" name="teardown" finished-at="2023-04-27T18:30:15 PDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tn.qa.testcases.LoginTest -->
+    </test> <!-- TN Login Tests -->
+    <test started-at="2023-04-27T18:30:15 PDT" name="TN Search Products Tests" finished-at="2023-04-27T18:31:11 PDT" duration-ms="55604">
+      <class name="com.tn.qa.testcases.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:15 PDT" name="setUp" finished-at="2023-04-27T18:30:18 PDT" duration-ms="2926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptySearchProduct()[pri:1, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:18 PDT" name="verifyEmptySearchProduct" finished-at="2023-04-27T18:30:19 PDT" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptySearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:19 PDT" name="teardown" finished-at="2023-04-27T18:30:19 PDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:19 PDT" name="setUp" finished-at="2023-04-27T18:30:22 PDT" duration-ms="3471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyInvalidSearchProduct()[pri:2, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:22 PDT" name="verifyInvalidSearchProduct" finished-at="2023-04-27T18:30:23 PDT" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidSearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:23 PDT" name="teardown" finished-at="2023-04-27T18:30:23 PDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:23 PDT" name="setUp" finished-at="2023-04-27T18:30:26 PDT" duration-ms="3170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchProductWithSpacesInTheMiddle()[pri:3, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:26 PDT" name="verifySearchProductWithSpacesInTheMiddle" finished-at="2023-04-27T18:30:27 PDT" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProductWithSpacesInTheMiddle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:27 PDT" name="teardown" finished-at="2023-04-27T18:30:27 PDT" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:27 PDT" name="setUp" finished-at="2023-04-27T18:30:30 PDT" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyMisspelledSearchProduct()[pri:4, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:30 PDT" name="verifyMisspelledSearchProduct" finished-at="2023-04-27T18:30:41 PDT" duration-ms="10416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMisspelledSearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:41 PDT" name="teardown" finished-at="2023-04-27T18:30:41 PDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:41 PDT" name="setUp" finished-at="2023-04-27T18:30:44 PDT" duration-ms="3012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAllUpperCaseSearchProduct()[pri:5, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:44 PDT" name="verifyAllUpperCaseSearchProduct" finished-at="2023-04-27T18:30:45 PDT" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllUpperCaseSearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:45 PDT" name="teardown" finished-at="2023-04-27T18:30:45 PDT" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:45 PDT" name="setUp" finished-at="2023-04-27T18:30:48 PDT" duration-ms="2999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySpecialCharacterSearchProduct()[pri:6, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:48 PDT" name="verifySpecialCharacterSearchProduct" finished-at="2023-04-27T18:30:48 PDT" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecialCharacterSearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:48 PDT" name="teardown" finished-at="2023-04-27T18:30:49 PDT" duration-ms="173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:49 PDT" name="setUp" finished-at="2023-04-27T18:30:52 PDT" duration-ms="3201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNumbersInSearchProduct()[pri:7, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:52 PDT" name="verifyNumbersInSearchProduct" finished-at="2023-04-27T18:30:52 PDT" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNumbersInSearchProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:52 PDT" name="teardown" finished-at="2023-04-27T18:30:52 PDT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:52 PDT" name="setUp" finished-at="2023-04-27T18:30:56 PDT" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchProductWithSpacesBetweenEachLetter()[pri:8, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:56 PDT" name="SearchProductWithSpacesBetweenEachLetter" finished-at="2023-04-27T18:30:56 PDT" duration-ms="699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductWithSpacesBetweenEachLetter -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:56 PDT" name="teardown" finished-at="2023-04-27T18:30:56 PDT" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:56 PDT" name="setUp" finished-at="2023-04-27T18:30:59 PDT" duration-ms="3004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchProductWithLeadingAndTrailingSpaces()[pri:9, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:30:59 PDT" name="SearchProductWithLeadingAndTrailingSpaces" finished-at="2023-04-27T18:31:01 PDT" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductWithLeadingAndTrailingSpaces -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:31:01 PDT" name="teardown" finished-at="2023-04-27T18:31:01 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:31:01 PDT" name="setUp" finished-at="2023-04-27T18:31:04 PDT" duration-ms="3179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchProductWithPartialProductName()[pri:10, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:31:04 PDT" name="SearchProductWithPartialProductName" finished-at="2023-04-27T18:31:05 PDT" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductWithPartialProductName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:31:05 PDT" name="teardown" finished-at="2023-04-27T18:31:05 PDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:31:05 PDT" name="setUp" finished-at="2023-04-27T18:31:08 PDT" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="SearchProductWithTwoSpaces()[pri:11, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:31:08 PDT" name="SearchProductWithTwoSpaces" finished-at="2023-04-27T18:31:11 PDT" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchProductWithTwoSpaces -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.tn.qa.testcases.SearchTest@333d4a8c]" started-at="2023-04-27T18:31:11 PDT" name="teardown" finished-at="2023-04-27T18:31:11 PDT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.tn.qa.testcases.SearchTest -->
+    </test> <!-- TN Search Products Tests -->
+  </suite> <!-- TutorialsNinja Hybrid Automation Suite -->
+</testng-results>
